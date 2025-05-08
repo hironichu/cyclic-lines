@@ -1,0 +1,62 @@
+.flashes .flash.intro-elem {
+    background-color: #e8edef;
+    display: flex;
+    align-content: center !important;
+    width: 390px;
+    height: auto;
+    padding: 30px;
+    flex-direction: column !important;
+    transition: all .2s ease-in;
+    align-items: flex-start !important;
+    justify-content: flex-start !important;
+	&[data-type="dialog"]{
+		background: #e8edef;
+	}
+	>.startup {
+		display: flex;
+		align-self: flex-end;
+		justify-content: flex-end;
+		padding: 1px 5px;
+		height: 40px;
+		width: auto;
+		position: relative;
+		opacity: 0;
+		transition: all .2s ease-in;
+		overflow: hidden;
+		&.displayed  {
+			opacity: 1;
+		}
+		>.button {
+			position: relative;
+			background: #2b2b2b;
+			color: white;
+			border: 1px solid #191919;
+			box-shadow: 2px 2px 1px black;
+			margin: auto 2px;
+			padding: 12px 17px;
+			border-radius: 2px;
+			font-size: 14pt;
+			text-transform: uppercase;
+			font-family: 'HelvetiPixel';
+			cursor: pointer;
+			transition: all .2s ease-in;
+			&:hover {
+				box-shadow: 1px 1px 1px rgb(7, 7, 7);
+			}
+			&.official-serv {
+				background-color: #2b2b2b;
+			}
+			&.custom-serv {
+				background-color: #4e4e4e;
+			}
+		}
+	}
+	&.select-server {
+		width: 540px;
+		height: 205px;
+	}
+}
+.flash .intro-tips {
+	background: rgb(255, 225, 56);
+	color: black;
+}

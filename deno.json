@@ -1,0 +1,11 @@
+{
+
+	"tasks": {
+		"dev": "deno run -A --unstable-kv --env-file=./.env --unstable-broadcast-channel mod.ts"
+	},
+	"imports": {
+		"@dduel/twitch-irc": "jsr:@dduel/twitch-irc@^0.11.4",
+		"@std/http": "jsr:@std/http",
+		"elevenlabs": "npm:elevenlabs@^1.58.0"
+	}
+}

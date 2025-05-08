@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'Adventurer';
+    src: url('../fonts/Adventurer.woff2') format('woff2'),
+        url('../fonts/Adventurer.woff') format('woff'),
+        url('../fonts/Adventurer.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'HelvetiPixel';
+    src: url('../fonts/HelvetiPixel.woff2') format('woff2'),
+        url('../fonts/HelvetiPixel.woff') format('woff'),
+        url('../fonts/HelvetiPixel.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Minimal4';
+    src: url('../fonts/Minimal4.woff2') format('woff2'),
+        url('../fonts/Minimal4.woff') format('woff'),
+        url('../fonts/Minimal4.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'HeartbitXX';
+    src: local('HeartbitXX'),
+        url('../fonts/HeartbitXX.woff2') format('woff2'),
+        url('../fonts/HeartbitXX.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}

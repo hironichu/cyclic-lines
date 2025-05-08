@@ -1,0 +1,13 @@
+{
+	"deno.enable": true,
+	"deno.unstable": [
+		"unstable-node-globals",
+		"bare-node-builtins",
+		"broadcast-channel",
+		"kv"
+	],
+	"obsSwitcher.fileNames": [
+		"*.env*",
+		".env"
+	]
+}

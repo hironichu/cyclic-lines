@@ -1,0 +1,6 @@
+.env
+./.zed
+./.vscode
+
+public/
+scss/
